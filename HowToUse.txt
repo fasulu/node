@@ -1,0 +1,19 @@
+Use postman to test
+
+Post request
+http://localhost:3000/auth/signup
+{
+    "username": "testuser3",
+    "password": "testpassword3"
+}
+
+Post request
+http://localhost:3000/auth/login
+{
+    "username": "testuser3",
+    "password": "testpassword3"
+}
+
+http://localhost:3000/user/users
+
+http://localhost:3000/test/connection
